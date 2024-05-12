@@ -5,8 +5,8 @@ Rockbuster Stealth is a movie rental company that used to have stores around the
 # Data
 Open source tutorial data from PostgreSQL.
 # Tools
-PostgreSQL
-DbVisualizer
-Tableau
-Excel
+PostgreSQL,
+DbVisualizer,
+Tableau,
+Excel,
 Power Point
