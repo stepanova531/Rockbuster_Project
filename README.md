@@ -10,3 +10,14 @@ DbVisualizer,
 Tableau,
 Excel,
 Power Point
+# Insights & Recommendations
+•	Our clients reside all over the world except Australia. The top-5 countries India, Chinese and Japan USA, Mexico. 
+### Start streaming online by piloting in the top-5 countries. 
+•	In the top-10 countries, 89% of our customers are based in non-English speaking countries. 
+### Consider offering the movies with the audio in their native languages focusing on the most popular film categories in their geographical regions.
+•	The most popular genres in the top-10 countries are Sport and Animation. 
+There is no prevailing rating. All five rating categories are relatively equal in terms of revenue generated. Although, four of five ratings are assigned to the movies for the audiences 13 years and older.
+### Develop a system for ranking films in the library by genre and film rating. Make decisions about purchasing new licenses based on the rating system, target audiences and their movie preferences.
+•	Customers rented most frequently the movies at the lowest rate of $0.99. These transactions account for 35% of all sales. However, these sales have generated 20% of revenue. The sales of movies at the highest rental rate generated almost half of the revenue, e.g. 49%. The movies on the top-10 list are being rented at the highest rate: $4.99. 
+### Invent a pricing strategy based on the films’ popularity and move films to a lower rental rate category once the number of sales shows a decreasing trend.
+### Review the maturity of license on a regular basis and discontinue those which have not been rented in the last 12 months (43 items on the current list) or the movies that have been purchased less than 10 times in the last 12 months (166 films) 
