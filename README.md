@@ -11,6 +11,7 @@ Tableau,
 Excel,
 Power Point
 # Insights & Recommendations
+https://github.com/stepanova531/Rockbuster_Project/blob/2e213478258dc58b5578f63d97d303cda8500a36/Presentation_Rockbuster.pdf
 •	Our clients reside all over the world except Australia. The top-5 countries India, Chinese and Japan USA, Mexico. 
 ### Start streaming online by piloting in the top-5 countries. 
 •	In the top-10 countries, 89% of our customers are based in non-English speaking countries. 
