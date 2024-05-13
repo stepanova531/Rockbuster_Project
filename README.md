@@ -12,7 +12,7 @@ Excel,
 Power Point
 # Insights & Recommendations
 
-[Rockbuster Presentation] https://github.com/stepanova531/Rockbuster_Project/blob/main/Presentation_Rockbuster.pdf
+[Rockbuster Presentation](docs/Presentation_Rockbuster.pdf)
 
 •	Our clients reside all over the world except Australia. The top-5 countries India, Chinese and Japan USA, Mexico. 
 ### Start streaming online by piloting in the top-5 countries. 
