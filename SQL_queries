@@ -1,0 +1,34 @@
+# Descriptive statistics 
+
+SELECT COUNT (DISTINCT film_id) AS film_cnt,
+COUNT (rental_duration) AS rent_duration_cnt,
+ROUND (AVG (rental_duration), 3) AS avg_rent_duration,
+MIN (rental_duration) AS min_rent_duration,
+MAX (rental_duration) AS max_rent_duration,
+COUNT (rental_rate) AS rent_rate_cnt,
+ROUND (AVG (rental_rate), 3) AS avg_rent_rate,
+MIN (rental_rate) AS min_rent_rate,
+MAX (rental_rate) AS max_rent_rate,
+COUNT (length) AS length_cnt,
+ROUND (AVG (length), 3) AS avg_length,
+MIN (length) AS min_length,
+MAX (length) AS max_length
+FROM film;
+
+# Top-10 movies
+
+SELECT A.title AS film_title, 
+F.name AS genre,
+A.rental_rate AS rent_rate,
+A.rating,
+COUNT (payment_id) AS tx_cnt,
+SUM (D.amount) AS total_revenue
+FROM film A
+JOIN inventory B ON A.film_id = B.film_id
+JOIN rental C ON B.inventory_id = C.inventory_id
+JOIN payment D ON C.rental_id = D.rental_id
+JOIN film_category E ON A.film_id = E.film_id
+JOIN category F ON E.category_id = F.category_id
+GROUP BY A.title, F.name, A.rental_rate, A.rating
+ORDER BY total_revenue DESC
+LIMIT 10;
