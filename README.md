@@ -23,6 +23,7 @@ There is no prevailing rating. All five rating categories are relatively equal i
 ### Review the maturity of license on a regular basis and discontinue those which have not been rented in the last 12 months (43 items on the current list) or the movies that have been purchased less than 10 times in the last 12 months (166 films) 
 # Key takeaways
 •	Common Table Expressions (CTE) sometimes can be used for the same purposes as subqueries. However, CTE has a more readable structure, and can be referenced multiple times from a calling query. It also allows saving time for running queries, e.g. our comparison shows 30% less time cost for running the average payment and top customers list. 
+
 •	When data is stored in multiple tables, we may need to create several joint tables, and this makes our statements long and hard readable. We can simplify the queries if we use WHERE / IN. However, this option is not advisable if we are using constantly changing data.
 
 •	Comparing Excel and SQL for data analysis, the latter is a better option for a relational database with multiple tables. Whatever tool we use, we must start our analysis by verifying the data consistency, data integrity and uniqueness. 
